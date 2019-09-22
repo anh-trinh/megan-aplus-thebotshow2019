@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Replace the following URL with a public GitHub repo URL
-gitrepo=https://github.com/huan-mai/pythonchatbot/
-webappname=pythonchatbot1
-group=BotGroup1
-loc=eastasia
+gitrepo=https://github.com/anh-trinh/megan-aplus-thebotshow2019/
+webappname=megan
+group=Bumblebee
+loc=Southeast Asia
 
 # Create a resource group.
 az group create --location $loc --name $group
