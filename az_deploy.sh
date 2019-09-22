@@ -4,7 +4,7 @@
 gitrepo=https://github.com/anh-trinh/megan-aplus-thebotshow2019/
 webappname=megan
 group=Bumblebee
-loc=eastasia
+loc=southeastasia
 
 # Create a resource group.
 az group create --location $loc --name $group
@@ -17,7 +17,7 @@ az webapp create --name $webappname --resource-group $group --plan $webappname -
 
 # Configure appsettings with correct APP_ID, APP_SECRET.
 # TODO: need to get APP_ID, APP_SECRET from bot channels. Currently, please put it manually here.
-az webapp config appsettings set -g $group -n $webappname --settings APP_ID= APP_SECRET= WEBSITE_HTTPLOGGING_RETENTION_DAYS=1
+az webapp config appsettings set -g $group -n $webappname --settings APP_ID=02d7fab4-cab7-43a2-8da1-ceabec317956 APP_SECRET=ht8PbU6cMz1US8=om[d.gI]BSj47rQ7x WEBSITE_HTTPLOGGING_RETENTION_DAYS=1
 
 # Deploy code from a public GitHub repository. 
 az webapp deployment source config --name $webappname --resource-group $group \
