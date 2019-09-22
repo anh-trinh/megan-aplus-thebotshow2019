@@ -4,7 +4,7 @@
 gitrepo=https://github.com/anh-trinh/megan-aplus-thebotshow2019/
 webappname=megan
 group=Bumblebee
-loc=Southeast Asia
+loc=eastasia
 
 # Create a resource group.
 az group create --location $loc --name $group
