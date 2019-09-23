@@ -3,8 +3,8 @@
 # Replace the following URL with a public GitHub repo URL
 gitrepo=https://github.com/anh-trinh/megan-aplus-thebotshow2019/
 webappname=megan
-group=Bumblebee
-loc=southeastasia
+group=Bumblebee-Bot
+loc=eastasia
 
 # Create a resource group.
 az group create --location $loc --name $group
