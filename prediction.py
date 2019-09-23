@@ -7,7 +7,6 @@ import random
 import json
 import pickle
 import webbrowser
-import time
 
 from nltk.stem.lancaster import LancasterStemmer
 
@@ -82,16 +81,12 @@ class Prediction:
         # return tuple of intent and probability
         return return_list
 
-    def open_tab_browser(self, url):
-        time.sleep(3)
-        # Open url in a new window of the default browser, if possible
-        webbrowser.open_new(url)
-
     def response(self, sentence, userID='123', show_details=False):
         results = self.classify(sentence)
         if len(results) == 0:
             lmgtfy_url = "https://lmgtfy.com/?q=" + sentence
-            self.open_tab_browser(lmgtfy_url)
+            # Open url in a new window of the default browser, if possible
+            webbrowser.open_new(lmgtfy_url)
             return "I didn't get that, but I will show you how to google it :)"
         # if we have a classification then find the matching intent tag
         if results:
