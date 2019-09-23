@@ -70,7 +70,7 @@ class Prediction:
     def classify(self, sentence):
         # generate probabilities from the model
         results = self.model.predict([self.bag_of_words(sentence)])[0]
-        # filter out predictions below a threshold
+        # filter out predictioNns below a threshold
         results = [[i,r] for i,r in enumerate(results) if r>ERROR_THRESHOLD]
         # sort by strength of probability
         results.sort(key=lambda x: x[1], reverse=True)
@@ -83,8 +83,8 @@ class Prediction:
     def response(self, sentence, userID='123', show_details=False):
         results = self.classify(sentence)
         if len(results) == 0:
-            lmgtfy_url = "https://lmgtfy.com/?q=" + sentence
-            return "I didn't get that, but I will show you how to google it :)\nPlease follow this link: " + lmgtfy_url
+            lmgtfy_url = "https://lmgtfy.com/?q=Hi%20Google!%20I%20asked" + sentence.replace(" ", "%20") + "%20Please%20tell%20me!"
+            return "I didn't get that, but I will show you how :)\nFollow this <a href='" + lmgtfy_url +"'>link</a>"
         # if we have a classification then find the matching intent tag
         if results:
             # loop as long as there are matches to process
