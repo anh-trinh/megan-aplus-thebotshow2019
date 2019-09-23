@@ -6,7 +6,6 @@ import tensorflow
 import random
 import json
 import pickle
-import webbrowser
 
 from nltk.stem.lancaster import LancasterStemmer
 
@@ -85,9 +84,7 @@ class Prediction:
         results = self.classify(sentence)
         if len(results) == 0:
             lmgtfy_url = "https://lmgtfy.com/?q=" + sentence
-            # Open url in a new window of the default browser, if possible
-            webbrowser.open_new(lmgtfy_url)
-            return "I didn't get that, but I will show you how to google it :) Please follow this link: " + lmgtfy_url
+            return "I didn't get that, but I will show you how to google it :)\nPlease follow this link: " + lmgtfy_url
         # if we have a classification then find the matching intent tag
         if results:
             # loop as long as there are matches to process
