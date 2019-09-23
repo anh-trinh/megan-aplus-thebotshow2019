@@ -12,7 +12,7 @@ from nltk.stem.lancaster import LancasterStemmer
 stemmer = LancasterStemmer()
 nltk.download('punkt')
 
-ERROR_THRESHOLD = 0.25
+ERROR_THRESHOLD = 0.7
 class Prediction:
     # This class is mainly used to predict the answer from user's question. 
     # It need below informations:
@@ -82,6 +82,8 @@ class Prediction:
 
     def response(self, sentence, userID='123', show_details=False):
         results = self.classify(sentence)
+        if len(results) == 0:
+            return "I didn't get that, try again."
         # if we have a classification then find the matching intent tag
         if results:
             # loop as long as there are matches to process
