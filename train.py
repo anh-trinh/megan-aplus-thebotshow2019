@@ -53,7 +53,10 @@ class Train:
 
     def training(self):
         labels, words = self.parse_intents_file()
-        stop_words = ['?', 'a', 'an', 'the', 'is', 'are', 'of', 'with', 'and', 'about', 'into', 'to']
+        stop_words = ['?', 'a', 'an', 'the',
+                      'is', 'are', 'will', 'would', 'was', 'were',
+                      'of', 'with', 'and', 'about', 'into', 'to', 'for',
+                      'what', 'why', 'when', 'where', 'who', 'how', 'which']
 
         words = [_stemmer.stem(w.lower()) for w in words if w not in stop_words]
         words = sorted(list(set(words)))

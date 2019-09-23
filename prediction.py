@@ -47,7 +47,7 @@ class Prediction:
         self.labels = []
         self.docs_x = []
         self.docs_y = []
-        self.context =  {}
+        self.context = {}
         try:
             self.load_model()
         except Exception as e:
@@ -70,7 +70,7 @@ class Prediction:
     def classify(self, sentence):
         # generate probabilities from the model
         results = self.model.predict([self.bag_of_words(sentence)])[0]
-        # filter out predictioNns below a threshold
+        # filter out predictions below a threshold
         results = [[i,r] for i,r in enumerate(results) if r>ERROR_THRESHOLD]
         # sort by strength of probability
         results.sort(key=lambda x: x[1], reverse=True)
