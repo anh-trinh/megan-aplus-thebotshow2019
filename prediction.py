@@ -87,7 +87,7 @@ class Prediction:
             lmgtfy_url = "https://lmgtfy.com/?q=" + sentence
             # Open url in a new window of the default browser, if possible
             webbrowser.open_new(lmgtfy_url)
-            return "I didn't get that, but I will show you how to google it :)"
+            return "I didn't get that, but I will show you how to google it :) Please follow this link: " + lmgtfy_url
         # if we have a classification then find the matching intent tag
         if results:
             # loop as long as there are matches to process
