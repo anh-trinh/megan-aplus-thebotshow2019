@@ -28,7 +28,7 @@ You need python 3.6 or 3.7 and pip
 1. Install azure-cli
 2. az login
 3. open az_deploy.sh and update **gitrepo, webappname and group**
-(For Windows, please update az_deploy.sh by replace "az" = "az.cmd"
+(For Windows, please update az_deploy.sh by replace "az" = "az.cmd")
 ```
 gitrepo=https://github.com/huan-mai/pythonchatbot/
 webappname=pythonchatbot1
