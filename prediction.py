@@ -12,7 +12,7 @@ from nltk.stem.lancaster import LancasterStemmer
 stemmer = LancasterStemmer()
 nltk.download('punkt')
 
-ERROR_THRESHOLD = 0.7
+ERROR_THRESHOLD = 0.9
 class Prediction:
     # This class is mainly used to predict the answer from user's question. 
     # It need below informations:
