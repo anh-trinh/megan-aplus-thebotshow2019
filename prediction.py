@@ -84,7 +84,7 @@ class Prediction:
         results = self.classify(sentence)
         if len(results) == 0:
             lmgtfy_url = "https://lmgtfy.com/?q=Hi%20Google!%20I%20asked%20" + sentence.replace(" ", "%20") + "!%20Please%20tell%20me!"
-            return "I didn't get that, but I will show you how :)\nFollow me by click on this <a href='" + lmgtfy_url +"'>link</a>"
+            return "I didn't get that, but I will show you how :)\nFollow me by click on this link:\n" + lmgtfy_url
         # if we have a classification then find the matching intent tag
         if results:
             # loop as long as there are matches to process
