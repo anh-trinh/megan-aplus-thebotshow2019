@@ -53,6 +53,7 @@ class Train:
 
     def training(self):
         labels, words = self.parse_intents_file()
+
         stop_words = ['?', 'a', 'an', 'the']
 
         words = [_stemmer.stem(w.lower()) for w in words if w not in stop_words]
