@@ -2,12 +2,7 @@
   "intents": [
     {
       "tag": "megan-name",
-      "patterns": [
-        "your name",
-        "you",
-        "name of you",
-        "what are you"
-      ],
+      "patterns": ["your name", "you", "name of you", "what are you"],
       "responses": [
         "I am Megan",
         "I am Iron Man! Just kidding, I'm Megan! :)",
@@ -34,11 +29,7 @@
     },
     {
       "tag": "megan-age",
-      "patterns": [
-        "your age",
-        "your years old",
-        "old you"
-      ],
+      "patterns": ["your age", "your years old", "old you"],
       "responses": [
         "I was borned in Sept 23",
         "I'm still too young, I'm just three days old! Oe Oe Oe! Mama!",
@@ -47,10 +38,7 @@
     },
     {
       "tag": "info-bumblebee",
-      "patterns": [
-        "Bumblebee",
-        "Bumblebee info"
-      ],
+      "patterns": ["Bumblebee", "Bumblebee info"],
       "responses": [
         "Bumblebee is our team",
         "Bumblebee Team created me",
@@ -59,11 +47,7 @@
     },
     {
       "tag": "introduction-user",
-      "patterns": [
-        "My name is",
-        "I'm",
-        "I am"
-      ],
+      "patterns": ["My name is", "I'm", "I am"],
       "responses": [
         "Wow! Nice to meet you!",
         "Nice! Very nice to meet you",
@@ -72,21 +56,12 @@
     },
     {
       "tag": "info-aplus",
-      "patterns": [
-        "A+",
-        "A Plus"
-      ],
-      "responses": [
-        "This is a BU of KMS"
-      ]
+      "patterns": ["A+", "A Plus"],
+      "responses": ["This is a BU of KMS"]
     },
     {
       "tag": "info-maile",
-      "patterns": [
-        "Who is Mai Le",
-        "Introduce Mai Le",
-        "Mai Le info"
-      ],
+      "patterns": ["Who is Mai Le", "Introduce Mai Le", "Mai Le info"],
       "responses": [
         "Mai Le is BU Head of A+",
         "Mai Le is our Bu Head who give us a change to get 5 millions Vietnam Dollar"
@@ -94,25 +69,42 @@
     },
     {
       "tag": "info-cox",
+      "patterns": ["Cox", "Cox Automotive"],
+      "responses": ["Cox is a account of A+", "Cox is parents of ATC and KBB"]
+    },
+    {
+      "tag": "greeting",
       "patterns": [
-        "Cox",
-        "Cox Automotive"
+        "Hi",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Alo",
+        "Hey",
+        "Sweetheart",
+        "Babe",
+        "Honey"
       ],
       "responses": [
-        "Cox is a account of A+",
-        "Cox is parents of ATC and KBB"
-      ]
-    },
-    {"tag": "greeting",
-      "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Alo", "Hey", "Sweetheart", "Babe", "Honey"],
-      "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+        "Hello, thanks for visiting",
+        "Good to see you again",
+        "Hi there, how can I help?"
+      ],
       "context_set": ""
     },
-    {"tag": "goodbye",
+    {
+      "tag": "goodbye",
       "patterns": ["Bye", "See you later", "Goodbye"],
-      "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon.", "Bye! Love you <3"]
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Bye! Love you <3"
+      ]
     },
-    {"tag": "thanks",
+    {
+      "tag": "thanks",
       "patterns": ["Thanks", "Thank you", "That's helpful"],
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
@@ -269,10 +261,7 @@
     },
     {
       "tag": "Medidata-activities",
-      "patterns": [
-        "Medidata favorite activities",
-        "activity Medidata"
-      ],
+      "patterns": ["Medidata favorite activities", "activity Medidata"],
       "responses": [
         "They are drinking, singing & exploring new technology",
         "The activities are drinking, singing & exploring new technology",
@@ -288,6 +277,1733 @@
         "Medidata's facts"
       ],
       "responses": ["There are none", "There is no fun fact"]
+    },
+    {
+      "tag": "Kibo-address",
+      "patterns": [
+        "Where is Kibo",
+        "Kibo located",
+        "Kibo location",
+        "address of Kibo",
+        "Kibo location",
+        "where Kibo address",
+        "Kibo's located",
+        "Kibo's location",
+        "Kibo location",
+        "where Kibo's address"
+      ],
+      "responses": [
+        "Client: The Kibo is at 717 N Harwood St STE 1900, Dallas, TX 75201, USA and KMS: It is on the 5th floor - TV office",
+        "Client: The Kibo is located at 717 N Harwood St STE 1900, Dallas, TX 75201, USA and KMS: It is located on the 5th floor - TV office",
+        "Client: The Kibo is situated at 717 N Harwood St STE 1900, Dallas, TX 75201, USA and KMS: It is situated on the 5th floor - TV office"
+      ]
+    },
+    {
+      "tag": "Kibo-business",
+      "patterns": [
+        "Kibo",
+        "Kibo business",
+        "Kibo about",
+        "Kibo do",
+        "Kibo info",
+        "Kibo's business",
+        "Kibo's about",
+        "Kibo's do",
+        "Kibo's info"
+      ],
+      "responses": [
+        "It is about Provides eCommerce platform, services and expertise designed\nspecifically for mid to upper tier retailers",
+        "It is Provides eCommerce platform, services and expertise designed\nspecifically for mid to upper tier retailers",
+        "The business is about Provides eCommerce platform, services and expertise designed\nspecifically for mid to upper tier retailers"
+      ]
+    },
+    {
+      "tag": "Kibo-website",
+      "patterns": [
+        "Kibo website",
+        "Kibo url",
+        "domain Kibo",
+        "Kibo's website",
+        "Kibo's url",
+        "domain Kibo's"
+      ],
+      "responses": [
+        "It is https://kibocommerce.com/",
+        "The url is https://kibocommerce.com/",
+        "The domain is https://kibocommerce.com/"
+      ]
+    },
+    {
+      "tag": "Kibo-start",
+      "patterns": [
+        "Kibo start date",
+        "Kibo begin",
+        "Kibo first date",
+        "Kibo start day",
+        "Kibo begin",
+        "Kibo first day",
+        "Kibo's start date",
+        "Kibo's begin",
+        "Kibo's first date",
+        "Kibo's start day",
+        "Kibo's begin",
+        "Kibo's first day"
+      ],
+      "responses": [
+        "It starts on Aug 5, 2019",
+        "The start date is Aug 5, 2019",
+        "Its start date is Aug 5, 2019"
+      ]
+    },
+    {
+      "tag": "Kibo-end",
+      "patterns": [
+        "Kibo end date",
+        "Kibo end",
+        "Kibo final date",
+        "Kibo over",
+        "Kibo last day",
+        "Kibo end day",
+        "Kibo's end date",
+        "Kibo's end",
+        "Kibo's final date",
+        "Kibo's over",
+        "Kibo's last day",
+        "Kibo's end day"
+      ],
+      "responses": [
+        "It's still going",
+        "It hasn't ended",
+        "Long live the team, as in, hasn't ended"
+      ]
+    },
+    {
+      "tag": "Kibo-member",
+      "patterns": [
+        "members in Kibo",
+        "number of members in Kibo",
+        "Kibo members",
+        "Kibo's members",
+        "people in Kibo",
+        "number of people in Kibo"
+      ],
+      "responses": [
+        "It has 20 members",
+        "The number of members is 20",
+        "There are 20 members"
+      ]
+    },
+    {
+      "tag": "Kibo-onshore",
+      "patterns": [
+        "Where is Kibo client address",
+        "Where is Kibo client location",
+        "Kibo onshore address",
+        "Kibo onshore location",
+        "Where is Kibo's client address",
+        "Where is Kibo's client location",
+        "Kibo's onshore address",
+        "Kibo's onshore location"
+      ],
+      "responses": [
+        "The Kibo is at 717 N Harwood St STE 1900, Dallas, TX 75201, USA",
+        "The Kibo is located at 717 N Harwood St STE 1900, Dallas, TX 75201, USA",
+        "The Kibo is situated at 717 N Harwood St STE 1900, Dallas, TX 75201, USA"
+      ]
+    },
+    {
+      "tag": "Kibo-offshore",
+      "patterns": [
+        "Where is Kibo KMS address",
+        "Where is Kibo KMS location",
+        "Kibo offshore address",
+        "Kibo offshore location",
+        "Where is Kibo's KMS address",
+        "Where is Kibo's KMS location",
+        "Kibo's offshore address",
+        "Kibo's offshore location"
+      ],
+      "responses": [
+        "It is on the 5th floor - TV office",
+        "It is located on the 5th floor - TV office",
+        "It is situated on the 5th floor - TV office"
+      ]
+    },
+    {
+      "tag": "Kibo-activities",
+      "patterns": ["Kibo favorite activities", "activity Kibo"],
+      "responses": [
+        "They are Eating, Shopping, Playing PES and Boarding Games, Monthly birthday\nparty & gift unpack",
+        "The activities are Eating, Shopping, Playing PES and Boarding Games, Monthly birthday\nparty & gift unpack",
+        "Eating, Shopping, Playing PES and Boarding Games, Monthly birthday\nparty & gift unpack"
+      ]
+    },
+    {
+      "tag": "Kibo-facts",
+      "patterns": [
+        "Kibo fun facts",
+        "Kibo's fun facts",
+        "Kibo facts",
+        "Kibo's facts"
+      ],
+      "responses": [
+        "The facts are: Kibo needs food, loves food... So plz give us food;\nYou want to hear a story, just come to Qui, an amazing-humorous-forever\nlooped-story teller",
+        "They are: Kibo needs food, loves food... So plz give us food;\nYou want to hear a story, just come to Qui, an amazing-humorous-forever\nlooped-story teller"
+      ]
+    },
+    {
+      "tag": "Dealer.com-address",
+      "patterns": [
+        "Where is Dealer.com",
+        "Dealer.com located",
+        "Dealer.com location",
+        "address of Dealer.com",
+        "Dealer.com location",
+        "where Dealer.com address",
+        "Dealer.com's located",
+        "Dealer.com's location",
+        "Dealer.com location",
+        "where Dealer.com's address"
+      ],
+      "responses": [
+        "Client: The Dealer.com is at 1 Howard St, Burlington, VT 05401, USA and KMS: It is on the 5th floor - TV office",
+        "Client: The Dealer.com is located at 1 Howard St, Burlington, VT 05401, USA and KMS: It is located on the 5th floor - TV office",
+        "Client: The Dealer.com is situated at 1 Howard St, Burlington, VT 05401, USA and KMS: It is situated on the 5th floor - TV office"
+      ]
+    },
+    {
+      "tag": "Dealer.com-business",
+      "patterns": [
+        "Dealer.com",
+        "Dealer.com business",
+        "Dealer.com about",
+        "Dealer.com do",
+        "Dealer.com info",
+        "Dealer.com's business",
+        "Dealer.com's about",
+        "Dealer.com's do",
+        "Dealer.com's info"
+      ],
+      "responses": [
+        "It is about Automobile",
+        "It is Automobile",
+        "The business is about Automobile"
+      ]
+    },
+    {
+      "tag": "Dealer.com-website",
+      "patterns": [
+        "Dealer.com website",
+        "Dealer.com url",
+        "domain Dealer.com",
+        "Dealer.com's website",
+        "Dealer.com's url",
+        "domain Dealer.com's"
+      ],
+      "responses": [
+        "It is https://dealer.com/",
+        "The url is https://dealer.com/",
+        "The domain is https://dealer.com/"
+      ]
+    },
+    {
+      "tag": "Dealer.com-start",
+      "patterns": [
+        "Dealer.com start date",
+        "Dealer.com begin",
+        "Dealer.com first date",
+        "Dealer.com start day",
+        "Dealer.com begin",
+        "Dealer.com first day",
+        "Dealer.com's start date",
+        "Dealer.com's begin",
+        "Dealer.com's first date",
+        "Dealer.com's start day",
+        "Dealer.com's begin",
+        "Dealer.com's first day"
+      ],
+      "responses": [
+        "It starts on Aug 5, 2019",
+        "The start date is Aug 5, 2019",
+        "Its start date is Aug 5, 2019"
+      ]
+    },
+    {
+      "tag": "Dealer.com-end",
+      "patterns": [
+        "Dealer.com end date",
+        "Dealer.com end",
+        "Dealer.com final date",
+        "Dealer.com over",
+        "Dealer.com last day",
+        "Dealer.com end day",
+        "Dealer.com's end date",
+        "Dealer.com's end",
+        "Dealer.com's final date",
+        "Dealer.com's over",
+        "Dealer.com's last day",
+        "Dealer.com's end day"
+      ],
+      "responses": [
+        "It's still going",
+        "It hasn't ended",
+        "Long live the team, as in, hasn't ended"
+      ]
+    },
+    {
+      "tag": "Dealer.com-member",
+      "patterns": [
+        "members in Dealer.com",
+        "number of members in Dealer.com",
+        "Dealer.com members",
+        "Dealer.com's members",
+        "people in Dealer.com",
+        "number of people in Dealer.com"
+      ],
+      "responses": [
+        "It has 5 members",
+        "The number of members is 5",
+        "There are 5 members"
+      ]
+    },
+    {
+      "tag": "Dealer.com-onshore",
+      "patterns": [
+        "Where is Dealer.com client address",
+        "Where is Dealer.com client location",
+        "Dealer.com onshore address",
+        "Dealer.com onshore location",
+        "Where is Dealer.com's client address",
+        "Where is Dealer.com's client location",
+        "Dealer.com's onshore address",
+        "Dealer.com's onshore location"
+      ],
+      "responses": [
+        "The Dealer.com is at 1 Howard St, Burlington, VT 05401, USA",
+        "The Dealer.com is located at 1 Howard St, Burlington, VT 05401, USA",
+        "The Dealer.com is situated at 1 Howard St, Burlington, VT 05401, USA"
+      ]
+    },
+    {
+      "tag": "Dealer.com-offshore",
+      "patterns": [
+        "Where is Dealer.com KMS address",
+        "Where is Dealer.com KMS location",
+        "Dealer.com offshore address",
+        "Dealer.com offshore location",
+        "Where is Dealer.com's KMS address",
+        "Where is Dealer.com's KMS location",
+        "Dealer.com's offshore address",
+        "Dealer.com's offshore location"
+      ],
+      "responses": [
+        "It is on the 5th floor - TV office",
+        "It is located on the 5th floor - TV office",
+        "It is situated on the 5th floor - TV office"
+      ]
+    },
+    {
+      "tag": "Dealer.com-activities",
+      "patterns": ["Dealer.com favorite activities", "activity Dealer.com"],
+      "responses": [
+        "They are Eat all the time; Sweet people eat sweet things",
+        "The activities are Eat all the time; Sweet people eat sweet things",
+        "Eat all the time; Sweet people eat sweet things"
+      ]
+    },
+    {
+      "tag": "Dealer.com-facts",
+      "patterns": [
+        "Dealer.com fun facts",
+        "Dealer.com's fun facts",
+        "Dealer.com facts",
+        "Dealer.com's facts"
+      ],
+      "responses": [
+        "The facts are: A member of \"Tuyet Tinh Cox\" (Cox Automotive Client); The Standard of Beauty; You can call us dear (sweet people) - \"dear\" is short for \"dealer\"!; \"DDC\" means Du Dep Chua?; \"DR\" means Dep Roi!",
+        "They are: A member of \"Tuyet Tinh Cox\" (Cox Automotive Client); The Standard of Beauty; You can call us dear (sweet people) - \"dear\" is short for \"dealer\"!; \"DDC\" means Du Dep Chua?; \"DR\" means Dep Roi!"
+      ]
+    },
+    {
+      "tag": "CareLogistics-address",
+      "patterns": [
+        "Where is CareLogistics",
+        "CareLogistics located",
+        "CareLogistics location",
+        "address of CareLogistics",
+        "CareLogistics location",
+        "where CareLogistics address",
+        "CareLogistics's located",
+        "CareLogistics's location",
+        "CareLogistics location",
+        "where CareLogistics's address"
+      ],
+      "responses": [
+        "Client: The CareLogistics is at 2655 Northwinds Pkwy, Alpharetta, GA 30009, USA and KMS: It is on the 4th floor - TV office",
+        "Client: The CareLogistics is located at 2655 Northwinds Pkwy, Alpharetta, GA 30009, USA and KMS: It is located on the 4th floor - TV office",
+        "Client: The CareLogistics is situated at 2655 Northwinds Pkwy, Alpharetta, GA 30009, USA and KMS: It is situated on the 4th floor - TV office"
+      ]
+    },
+    {
+      "tag": "CareLogistics-business",
+      "patterns": [
+        "CareLogistics",
+        "CareLogistics business",
+        "CareLogistics about",
+        "CareLogistics do",
+        "CareLogistics info",
+        "CareLogistics's business",
+        "CareLogistics's about",
+        "CareLogistics's do",
+        "CareLogistics's info"
+      ],
+      "responses": [
+        "It is about Healthcare",
+        "It is Healthcare",
+        "The business is about Healthcare"
+      ]
+    },
+    {
+      "tag": "CareLogistics-website",
+      "patterns": [
+        "CareLogistics website",
+        "CareLogistics url",
+        "domain CareLogistics",
+        "CareLogistics's website",
+        "CareLogistics's url",
+        "domain CareLogistics's"
+      ],
+      "responses": [
+        "It is https://www.carelogistics.com/",
+        "The url is https://www.carelogistics.com/",
+        "The domain is https://www.carelogistics.com/"
+      ]
+    },
+    {
+      "tag": "CareLogistics-start",
+      "patterns": [
+        "CareLogistics start date",
+        "CareLogistics begin",
+        "CareLogistics first date",
+        "CareLogistics start day",
+        "CareLogistics begin",
+        "CareLogistics first day",
+        "CareLogistics's start date",
+        "CareLogistics's begin",
+        "CareLogistics's first date",
+        "CareLogistics's start day",
+        "CareLogistics's begin",
+        "CareLogistics's first day"
+      ],
+      "responses": [
+        "It starts on Aug 5, 2019",
+        "The start date is Aug 5, 2019",
+        "Its start date is Aug 5, 2019"
+      ]
+    },
+    {
+      "tag": "CareLogistics-end",
+      "patterns": [
+        "CareLogistics end date",
+        "CareLogistics end",
+        "CareLogistics final date",
+        "CareLogistics over",
+        "CareLogistics last day",
+        "CareLogistics end day",
+        "CareLogistics's end date",
+        "CareLogistics's end",
+        "CareLogistics's final date",
+        "CareLogistics's over",
+        "CareLogistics's last day",
+        "CareLogistics's end day"
+      ],
+      "responses": [
+        "It's still going",
+        "It hasn't ended",
+        "Long live the team, as in, hasn't ended"
+      ]
+    },
+    {
+      "tag": "CareLogistics-member",
+      "patterns": [
+        "members in CareLogistics",
+        "number of members in CareLogistics",
+        "CareLogistics members",
+        "CareLogistics's members",
+        "people in CareLogistics",
+        "number of people in CareLogistics"
+      ],
+      "responses": [
+        "It has 6 members",
+        "The number of members is 6",
+        "There are 6 members"
+      ]
+    },
+    {
+      "tag": "CareLogistics-onshore",
+      "patterns": [
+        "Where is CareLogistics client address",
+        "Where is CareLogistics client location",
+        "CareLogistics onshore address",
+        "CareLogistics onshore location",
+        "Where is CareLogistics's client address",
+        "Where is CareLogistics's client location",
+        "CareLogistics's onshore address",
+        "CareLogistics's onshore location"
+      ],
+      "responses": [
+        "The CareLogistics is at 2655 Northwinds Pkwy, Alpharetta, GA 30009, USA",
+        "The CareLogistics is located at 2655 Northwinds Pkwy, Alpharetta, GA 30009, USA",
+        "The CareLogistics is situated at 2655 Northwinds Pkwy, Alpharetta, GA 30009, USA"
+      ]
+    },
+    {
+      "tag": "CareLogistics-offshore",
+      "patterns": [
+        "Where is CareLogistics KMS address",
+        "Where is CareLogistics KMS location",
+        "CareLogistics offshore address",
+        "CareLogistics offshore location",
+        "Where is CareLogistics's KMS address",
+        "Where is CareLogistics's KMS location",
+        "CareLogistics's offshore address",
+        "CareLogistics's offshore location"
+      ],
+      "responses": [
+        "It is on the 4th floor - TV office",
+        "It is located on the 4th floor - TV office",
+        "It is situated on the 4th floor - TV office"
+      ]
+    },
+    {
+      "tag": "CareLogistics-activities",
+      "patterns": [
+        "CareLogistics favorite activities",
+        "activity CareLogistics"
+      ],
+      "responses": [
+        "They are drink bubble tea & eat food",
+        "The activities are drink bubble tea & eat food",
+        "drink bubble tea & eat food"
+      ]
+    },
+    {
+      "tag": "CareLogistics-facts",
+      "patterns": [
+        "CareLogistics fun facts",
+        "CareLogistics's fun facts",
+        "CareLogistics facts",
+        "CareLogistics's facts"
+      ],
+      "responses": [
+        "The facts are: all members are freshers",
+        "They are: all members are freshers"
+      ]
+    },
+    {
+      "tag": "Monetate-address",
+      "patterns": [
+        "Where is Monetate",
+        "Monetate located",
+        "Monetate location",
+        "address of Monetate",
+        "Monetate location",
+        "where Monetate address",
+        "Monetate's located",
+        "Monetate's location",
+        "Monetate location",
+        "where Monetate's address"
+      ],
+      "responses": [
+        "Client: The Monetate is at 27 E 28th St 8th Floor, New York, NY 10016, USA and KMS: It is on the 4th floor - TV office",
+        "Client: The Monetate is located at 27 E 28th St 8th Floor, New York, NY 10016, USA and KMS: It is located on the 4th floor - TV office",
+        "Client: The Monetate is situated at 27 E 28th St 8th Floor, New York, NY 10016, USA and KMS: It is situated on the 4th floor - TV office"
+      ]
+    },
+    {
+      "tag": "Monetate-business",
+      "patterns": [
+        "Monetate",
+        "Monetate business",
+        "Monetate about",
+        "Monetate do",
+        "Monetate info",
+        "Monetate's business",
+        "Monetate's about",
+        "Monetate's do",
+        "Monetate's info"
+      ],
+      "responses": [
+        "It is about Healthcare",
+        "It is Healthcare",
+        "The business is about Healthcare"
+      ]
+    },
+    {
+      "tag": "Monetate-website",
+      "patterns": [
+        "Monetate website",
+        "Monetate url",
+        "domain Monetate",
+        "Monetate's website",
+        "Monetate's url",
+        "domain Monetate's"
+      ],
+      "responses": [
+        "It is https://monetate.com/",
+        "The url is https://monetate.com/",
+        "The domain is https://monetate.com/"
+      ]
+    },
+    {
+      "tag": "Monetate-start",
+      "patterns": [
+        "Monetate start date",
+        "Monetate begin",
+        "Monetate first date",
+        "Monetate start day",
+        "Monetate begin",
+        "Monetate first day",
+        "Monetate's start date",
+        "Monetate's begin",
+        "Monetate's first date",
+        "Monetate's start day",
+        "Monetate's begin",
+        "Monetate's first day"
+      ],
+      "responses": [
+        "It starts on Aug 5, 2019",
+        "The start date is Aug 5, 2019",
+        "Its start date is Aug 5, 2019"
+      ]
+    },
+    {
+      "tag": "Monetate-end",
+      "patterns": [
+        "Monetate end date",
+        "Monetate end",
+        "Monetate final date",
+        "Monetate over",
+        "Monetate last day",
+        "Monetate end day",
+        "Monetate's end date",
+        "Monetate's end",
+        "Monetate's final date",
+        "Monetate's over",
+        "Monetate's last day",
+        "Monetate's end day"
+      ],
+      "responses": [
+        "It's still going",
+        "It hasn't ended",
+        "Long live the team, as in, hasn't ended"
+      ]
+    },
+    {
+      "tag": "Monetate-member",
+      "patterns": [
+        "members in Monetate",
+        "number of members in Monetate",
+        "Monetate members",
+        "Monetate's members",
+        "people in Monetate",
+        "number of people in Monetate"
+      ],
+      "responses": [
+        "It has 3 members",
+        "The number of members is 3",
+        "There are 3 members"
+      ]
+    },
+    {
+      "tag": "Monetate-onshore",
+      "patterns": [
+        "Where is Monetate client address",
+        "Where is Monetate client location",
+        "Monetate onshore address",
+        "Monetate onshore location",
+        "Where is Monetate's client address",
+        "Where is Monetate's client location",
+        "Monetate's onshore address",
+        "Monetate's onshore location"
+      ],
+      "responses": [
+        "The Monetate is at 27 E 28th St 8th Floor, New York, NY 10016, USA",
+        "The Monetate is located at 27 E 28th St 8th Floor, New York, NY 10016, USA",
+        "The Monetate is situated at 27 E 28th St 8th Floor, New York, NY 10016, USA"
+      ]
+    },
+    {
+      "tag": "Monetate-offshore",
+      "patterns": [
+        "Where is Monetate KMS address",
+        "Where is Monetate KMS location",
+        "Monetate offshore address",
+        "Monetate offshore location",
+        "Where is Monetate's KMS address",
+        "Where is Monetate's KMS location",
+        "Monetate's offshore address",
+        "Monetate's offshore location"
+      ],
+      "responses": [
+        "It is on the 4th floor - TV office",
+        "It is located on the 4th floor - TV office",
+        "It is situated on the 4th floor - TV office"
+      ]
+    },
+    {
+      "tag": "Monetate-activities",
+      "patterns": ["Monetate favorite activities", "activity Monetate"],
+      "responses": [
+        "They are work together, drink together, eat together",
+        "The activities are work together, drink together, eat together",
+        "work together, drink together, eat together"
+      ]
+    },
+    {
+      "tag": "Monetate-facts",
+      "patterns": [
+        "Monetate fun facts",
+        "Monetate's fun facts",
+        "Monetate facts",
+        "Monetate's facts"
+      ],
+      "responses": [
+        "The facts are: all beautiful people here!",
+        "They are: all beautiful people here!"
+      ]
+    },
+    {
+      "tag": "AgreementExpress-address",
+      "patterns": [
+        "Where is AgreementExpress",
+        "AgreementExpress located",
+        "AgreementExpress location",
+        "address of AgreementExpress",
+        "AgreementExpress location",
+        "where AgreementExpress address",
+        "AgreementExpress's located",
+        "AgreementExpress's location",
+        "AgreementExpress location",
+        "where AgreementExpress's address"
+      ],
+      "responses": [
+        "Client: The AgreementExpress is at 625 Howe St. Suite 900 Vancouver, British Columbia Canada V6C 2T6 and KMS: It is on the 4th floor - TV office",
+        "Client: The AgreementExpress is located at 625 Howe St. Suite 900 Vancouver, British Columbia Canada V6C 2T6 and KMS: It is located on the 4th floor - TV office",
+        "Client: The AgreementExpress is situated at 625 Howe St. Suite 900 Vancouver, British Columbia Canada V6C 2T6 and KMS: It is situated on the 4th floor - TV office"
+      ]
+    },
+    {
+      "tag": "AgreementExpress-business",
+      "patterns": [
+        "AgreementExpress",
+        "AgreementExpress business",
+        "AgreementExpress about",
+        "AgreementExpress do",
+        "AgreementExpress info",
+        "AgreementExpress's business",
+        "AgreementExpress's about",
+        "AgreementExpress's do",
+        "AgreementExpress's info"
+      ],
+      "responses": [
+        "It is about Fintech",
+        "It is Fintech",
+        "The business is about Fintech"
+      ]
+    },
+    {
+      "tag": "AgreementExpress-website",
+      "patterns": [
+        "AgreementExpress website",
+        "AgreementExpress url",
+        "domain AgreementExpress",
+        "AgreementExpress's website",
+        "AgreementExpress's url",
+        "domain AgreementExpress's"
+      ],
+      "responses": [
+        "It is https://agreementexpress.com/",
+        "The url is https://agreementexpress.com/",
+        "The domain is https://agreementexpress.com/"
+      ]
+    },
+    {
+      "tag": "AgreementExpress-start",
+      "patterns": [
+        "AgreementExpress start date",
+        "AgreementExpress begin",
+        "AgreementExpress first date",
+        "AgreementExpress start day",
+        "AgreementExpress begin",
+        "AgreementExpress first day",
+        "AgreementExpress's start date",
+        "AgreementExpress's begin",
+        "AgreementExpress's first date",
+        "AgreementExpress's start day",
+        "AgreementExpress's begin",
+        "AgreementExpress's first day"
+      ],
+      "responses": [
+        "It starts on Aug 5, 2019",
+        "The start date is Aug 5, 2019",
+        "Its start date is Aug 5, 2019"
+      ]
+    },
+    {
+      "tag": "AgreementExpress-end",
+      "patterns": [
+        "AgreementExpress end date",
+        "AgreementExpress end",
+        "AgreementExpress final date",
+        "AgreementExpress over",
+        "AgreementExpress last day",
+        "AgreementExpress end day",
+        "AgreementExpress's end date",
+        "AgreementExpress's end",
+        "AgreementExpress's final date",
+        "AgreementExpress's over",
+        "AgreementExpress's last day",
+        "AgreementExpress's end day"
+      ],
+      "responses": [
+        "It's still going",
+        "It hasn't ended",
+        "Long live the team, as in, hasn't ended"
+      ]
+    },
+    {
+      "tag": "AgreementExpress-member",
+      "patterns": [
+        "members in AgreementExpress",
+        "number of members in AgreementExpress",
+        "AgreementExpress members",
+        "AgreementExpress's members",
+        "people in AgreementExpress",
+        "number of people in AgreementExpress"
+      ],
+      "responses": [
+        "It has 16 members",
+        "The number of members is 16",
+        "There are 16 members"
+      ]
+    },
+    {
+      "tag": "AgreementExpress-onshore",
+      "patterns": [
+        "Where is AgreementExpress client address",
+        "Where is AgreementExpress client location",
+        "AgreementExpress onshore address",
+        "AgreementExpress onshore location",
+        "Where is AgreementExpress's client address",
+        "Where is AgreementExpress's client location",
+        "AgreementExpress's onshore address",
+        "AgreementExpress's onshore location"
+      ],
+      "responses": [
+        "The AgreementExpress is at 625 Howe St. Suite 900 Vancouver, British Columbia Canada V6C 2T6",
+        "The AgreementExpress is located at 625 Howe St. Suite 900 Vancouver, British Columbia Canada V6C 2T6",
+        "The AgreementExpress is situated at 625 Howe St. Suite 900 Vancouver, British Columbia Canada V6C 2T6"
+      ]
+    },
+    {
+      "tag": "AgreementExpress-offshore",
+      "patterns": [
+        "Where is AgreementExpress KMS address",
+        "Where is AgreementExpress KMS location",
+        "AgreementExpress offshore address",
+        "AgreementExpress offshore location",
+        "Where is AgreementExpress's KMS address",
+        "Where is AgreementExpress's KMS location",
+        "AgreementExpress's offshore address",
+        "AgreementExpress's offshore location"
+      ],
+      "responses": [
+        "It is on the 4th floor - TV office",
+        "It is located on the 4th floor - TV office",
+        "It is situated on the 4th floor - TV office"
+      ]
+    },
+    {
+      "tag": "AgreementExpress-activities",
+      "patterns": [
+        "AgreementExpress favorite activities",
+        "activity AgreementExpress"
+      ],
+      "responses": [
+        "There is none",
+        "There is no activity",
+        "No, the team's goal is to work now, and forever",
+        "No leisure time for activities :("
+      ]
+    },
+    {
+      "tag": "AgreementExpress-facts",
+      "patterns": [
+        "AgreementExpress fun facts",
+        "AgreementExpress's fun facts",
+        "AgreementExpress facts",
+        "AgreementExpress's facts"
+      ],
+      "responses": [
+        "The facts are: the shortest deal ever! Closed won within 10 days!",
+        "They are: the shortest deal ever! Closed won within 10 days!"
+      ]
+    },
+    {
+      "tag": "Autotrader-address",
+      "patterns": [
+        "Where is Autotrader",
+        "Autotrader located",
+        "Autotrader location",
+        "address of Autotrader",
+        "Autotrader location",
+        "where Autotrader address",
+        "Autotrader's located",
+        "Autotrader's location",
+        "Autotrader location",
+        "where Autotrader's address"
+      ],
+      "responses": [
+        "Client: The Autotrader is at 3003 Summit Blvd NE #200, Atlanta, GA 30319, USA and KMS: It is on the 5th floor - TV office",
+        "Client: The Autotrader is located at 3003 Summit Blvd NE #200, Atlanta, GA 30319, USA and KMS: It is located on the 5th floor - TV office",
+        "Client: The Autotrader is situated at 3003 Summit Blvd NE #200, Atlanta, GA 30319, USA and KMS: It is situated on the 5th floor - TV office"
+      ]
+    },
+    {
+      "tag": "Autotrader-business",
+      "patterns": [
+        "Autotrader",
+        "Autotrader business",
+        "Autotrader about",
+        "Autotrader do",
+        "Autotrader info",
+        "Autotrader's business",
+        "Autotrader's about",
+        "Autotrader's do",
+        "Autotrader's info"
+      ],
+      "responses": [
+        "It is about Automobile",
+        "It is Automobile",
+        "The business is about Automobile"
+      ]
+    },
+    {
+      "tag": "Autotrader-website",
+      "patterns": [
+        "Autotrader website",
+        "Autotrader url",
+        "domain Autotrader",
+        "Autotrader's website",
+        "Autotrader's url",
+        "domain Autotrader's"
+      ],
+      "responses": [
+        "It is https://www.autotrader.com/",
+        "The url is https://www.autotrader.com/",
+        "The domain is https://www.autotrader.com/"
+      ]
+    },
+    {
+      "tag": "Autotrader-start",
+      "patterns": [
+        "Autotrader start date",
+        "Autotrader begin",
+        "Autotrader first date",
+        "Autotrader start day",
+        "Autotrader begin",
+        "Autotrader first day",
+        "Autotrader's start date",
+        "Autotrader's begin",
+        "Autotrader's first date",
+        "Autotrader's start day",
+        "Autotrader's begin",
+        "Autotrader's first day"
+      ],
+      "responses": [
+        "It starts on Aug 5, 2019",
+        "The start date is Aug 5, 2019",
+        "Its start date is Aug 5, 2019"
+      ]
+    },
+    {
+      "tag": "Autotrader-end",
+      "patterns": [
+        "Autotrader end date",
+        "Autotrader end",
+        "Autotrader final date",
+        "Autotrader over",
+        "Autotrader last day",
+        "Autotrader end day",
+        "Autotrader's end date",
+        "Autotrader's end",
+        "Autotrader's final date",
+        "Autotrader's over",
+        "Autotrader's last day",
+        "Autotrader's end day"
+      ],
+      "responses": [
+        "It's still going",
+        "It hasn't ended",
+        "Long live the team, as in, hasn't ended"
+      ]
+    },
+    {
+      "tag": "Autotrader-member",
+      "patterns": [
+        "members in Autotrader",
+        "number of members in Autotrader",
+        "Autotrader members",
+        "Autotrader's members",
+        "people in Autotrader",
+        "number of people in Autotrader"
+      ],
+      "responses": [
+        "It has 7 members",
+        "The number of members is 7",
+        "There are 7 members"
+      ]
+    },
+    {
+      "tag": "Autotrader-onshore",
+      "patterns": [
+        "Where is Autotrader client address",
+        "Where is Autotrader client location",
+        "Autotrader onshore address",
+        "Autotrader onshore location",
+        "Where is Autotrader's client address",
+        "Where is Autotrader's client location",
+        "Autotrader's onshore address",
+        "Autotrader's onshore location"
+      ],
+      "responses": [
+        "The Autotrader is at 3003 Summit Blvd NE #200, Atlanta, GA 30319, USA",
+        "The Autotrader is located at 3003 Summit Blvd NE #200, Atlanta, GA 30319, USA",
+        "The Autotrader is situated at 3003 Summit Blvd NE #200, Atlanta, GA 30319, USA"
+      ]
+    },
+    {
+      "tag": "Autotrader-offshore",
+      "patterns": [
+        "Where is Autotrader KMS address",
+        "Where is Autotrader KMS location",
+        "Autotrader offshore address",
+        "Autotrader offshore location",
+        "Where is Autotrader's KMS address",
+        "Where is Autotrader's KMS location",
+        "Autotrader's offshore address",
+        "Autotrader's offshore location"
+      ],
+      "responses": [
+        "It is on the 5th floor - TV office",
+        "It is located on the 5th floor - TV office",
+        "It is situated on the 5th floor - TV office"
+      ]
+    },
+    {
+      "tag": "Autotrader-activities",
+      "patterns": ["Autotrader favorite activities", "activity Autotrader"],
+      "responses": [
+        "There is none",
+        "There is no activity",
+        "No, the team's goal is to work now, and forever",
+        "No leisure time for activities :("
+      ]
+    },
+    {
+      "tag": "Autotrader-facts",
+      "patterns": [
+        "Autotrader fun facts",
+        "Autotrader's fun facts",
+        "Autotrader facts",
+        "Autotrader's facts"
+      ],
+      "responses": [
+        "The facts are: A member of \"Tuyet Tinh Cox\" (Cox Automotive Client); AutoTrader is under the guardian of a friendly Autobot (Bumblebee)",
+        "They are: A member of \"Tuyet Tinh Cox\" (Cox Automotive Client); AutoTrader is under the guardian of a friendly Autobot (Bumblebee)"
+      ]
+    },
+    {
+      "tag": "HotSchedule-address",
+      "patterns": [
+        "Where is HotSchedule",
+        "HotSchedule located",
+        "HotSchedule location",
+        "address of HotSchedule",
+        "HotSchedule location",
+        "where HotSchedule address",
+        "HotSchedule's located",
+        "HotSchedule's location",
+        "HotSchedule location",
+        "where HotSchedule's address"
+      ],
+      "responses": [
+        "Client: The HotSchedule is at 6504 Bridge Point Pkwy Ste 425, Austin, TX 78730, USA and KMS: It is on the 4th floor - TV office",
+        "Client: The HotSchedule is located at 6504 Bridge Point Pkwy Ste 425, Austin, TX 78730, USA and KMS: It is located on the 4th floor - TV office",
+        "Client: The HotSchedule is situated at 6504 Bridge Point Pkwy Ste 425, Austin, TX 78730, USA and KMS: It is situated on the 4th floor - TV office"
+      ]
+    },
+    {
+      "tag": "HotSchedule-business",
+      "patterns": [
+        "HotSchedule",
+        "HotSchedule business",
+        "HotSchedule about",
+        "HotSchedule do",
+        "HotSchedule info",
+        "HotSchedule's business",
+        "HotSchedule's about",
+        "HotSchedule's do",
+        "HotSchedule's info"
+      ],
+      "responses": [
+        "It is about Hospitality Management",
+        "It is Hospitality Management",
+        "The business is about Hospitality Management"
+      ]
+    },
+    {
+      "tag": "HotSchedule-website",
+      "patterns": [
+        "HotSchedule website",
+        "HotSchedule url",
+        "domain HotSchedule",
+        "HotSchedule's website",
+        "HotSchedule's url",
+        "domain HotSchedule's"
+      ],
+      "responses": [
+        "It is https://www.hotschedules.com/",
+        "The url is https://www.hotschedules.com/",
+        "The domain is https://www.hotschedules.com/"
+      ]
+    },
+    {
+      "tag": "HotSchedule-start",
+      "patterns": [
+        "HotSchedule start date",
+        "HotSchedule begin",
+        "HotSchedule first date",
+        "HotSchedule start day",
+        "HotSchedule begin",
+        "HotSchedule first day",
+        "HotSchedule's start date",
+        "HotSchedule's begin",
+        "HotSchedule's first date",
+        "HotSchedule's start day",
+        "HotSchedule's begin",
+        "HotSchedule's first day"
+      ],
+      "responses": [
+        "It starts on Aug 5, 2019",
+        "The start date is Aug 5, 2019",
+        "Its start date is Aug 5, 2019"
+      ]
+    },
+    {
+      "tag": "HotSchedule-end",
+      "patterns": [
+        "HotSchedule end date",
+        "HotSchedule end",
+        "HotSchedule final date",
+        "HotSchedule over",
+        "HotSchedule last day",
+        "HotSchedule end day",
+        "HotSchedule's end date",
+        "HotSchedule's end",
+        "HotSchedule's final date",
+        "HotSchedule's over",
+        "HotSchedule's last day",
+        "HotSchedule's end day"
+      ],
+      "responses": [
+        "It's still going",
+        "It hasn't ended",
+        "Long live the team, as in, hasn't ended"
+      ]
+    },
+    {
+      "tag": "HotSchedule-member",
+      "patterns": [
+        "members in HotSchedule",
+        "number of members in HotSchedule",
+        "HotSchedule members",
+        "HotSchedule's members",
+        "people in HotSchedule",
+        "number of people in HotSchedule"
+      ],
+      "responses": [
+        "It has 37 members",
+        "The number of members is 37",
+        "There are 37 members"
+      ]
+    },
+    {
+      "tag": "HotSchedule-onshore",
+      "patterns": [
+        "Where is HotSchedule client address",
+        "Where is HotSchedule client location",
+        "HotSchedule onshore address",
+        "HotSchedule onshore location",
+        "Where is HotSchedule's client address",
+        "Where is HotSchedule's client location",
+        "HotSchedule's onshore address",
+        "HotSchedule's onshore location"
+      ],
+      "responses": [
+        "The HotSchedule is at 6504 Bridge Point Pkwy Ste 425, Austin, TX 78730, USA",
+        "The HotSchedule is located at 6504 Bridge Point Pkwy Ste 425, Austin, TX 78730, USA",
+        "The HotSchedule is situated at 6504 Bridge Point Pkwy Ste 425, Austin, TX 78730, USA"
+      ]
+    },
+    {
+      "tag": "HotSchedule-offshore",
+      "patterns": [
+        "Where is HotSchedule KMS address",
+        "Where is HotSchedule KMS location",
+        "HotSchedule offshore address",
+        "HotSchedule offshore location",
+        "Where is HotSchedule's KMS address",
+        "Where is HotSchedule's KMS location",
+        "HotSchedule's offshore address",
+        "HotSchedule's offshore location"
+      ],
+      "responses": [
+        "It is on the 4th floor - TV office",
+        "It is located on the 4th floor - TV office",
+        "It is situated on the 4th floor - TV office"
+      ]
+    },
+    {
+      "tag": "HotSchedule-activities",
+      "patterns": ["HotSchedule favorite activities", "activity HotSchedule"],
+      "responses": [
+        "There is none",
+        "There is no activity",
+        "No, the team's goal is to work now, and forever",
+        "No leisure time for activities :("
+      ]
+    },
+    {
+      "tag": "HotSchedule-facts",
+      "patterns": [
+        "HotSchedule fun facts",
+        "HotSchedule's fun facts",
+        "HotSchedule facts",
+        "HotSchedule's facts"
+      ],
+      "responses": [
+        "The facts are: The biggest project in KMS (140 members at peak time); We have internal CEO team which means Chief Entertainment Officers",
+        "They are: The biggest project in KMS (140 members at peak time); We have internal CEO team which means Chief Entertainment Officers"
+      ]
+    },
+    {
+      "tag": "KelleyBlueBook-address",
+      "patterns": [
+        "Where is KelleyBlueBook",
+        "KelleyBlueBook located",
+        "KelleyBlueBook location",
+        "address of KelleyBlueBook",
+        "KelleyBlueBook location",
+        "where KelleyBlueBook address",
+        "KelleyBlueBook's located",
+        "KelleyBlueBook's location",
+        "KelleyBlueBook location",
+        "where KelleyBlueBook's address"
+      ],
+      "responses": [
+        "Client: The KelleyBlueBook is at 195 Technology Dr, Irvine, CA 92618, USA and KMS: It is on the 5th floor - TV office",
+        "Client: The KelleyBlueBook is located at 195 Technology Dr, Irvine, CA 92618, USA and KMS: It is located on the 5th floor - TV office",
+        "Client: The KelleyBlueBook is situated at 195 Technology Dr, Irvine, CA 92618, USA and KMS: It is situated on the 5th floor - TV office"
+      ]
+    },
+    {
+      "tag": "KelleyBlueBook-business",
+      "patterns": [
+        "KelleyBlueBook",
+        "KelleyBlueBook business",
+        "KelleyBlueBook about",
+        "KelleyBlueBook do",
+        "KelleyBlueBook info",
+        "KelleyBlueBook's business",
+        "KelleyBlueBook's about",
+        "KelleyBlueBook's do",
+        "KelleyBlueBook's info"
+      ],
+      "responses": [
+        "It is about Automobile",
+        "It is Automobile",
+        "The business is about Automobile"
+      ]
+    },
+    {
+      "tag": "KelleyBlueBook-website",
+      "patterns": [
+        "KelleyBlueBook website",
+        "KelleyBlueBook url",
+        "domain KelleyBlueBook",
+        "KelleyBlueBook's website",
+        "KelleyBlueBook's url",
+        "domain KelleyBlueBook's"
+      ],
+      "responses": [
+        "It is https://www.kbb.com/",
+        "The url is https://www.kbb.com/",
+        "The domain is https://www.kbb.com/"
+      ]
+    },
+    {
+      "tag": "KelleyBlueBook-start",
+      "patterns": [
+        "KelleyBlueBook start date",
+        "KelleyBlueBook begin",
+        "KelleyBlueBook first date",
+        "KelleyBlueBook start day",
+        "KelleyBlueBook begin",
+        "KelleyBlueBook first day",
+        "KelleyBlueBook's start date",
+        "KelleyBlueBook's begin",
+        "KelleyBlueBook's first date",
+        "KelleyBlueBook's start day",
+        "KelleyBlueBook's begin",
+        "KelleyBlueBook's first day"
+      ],
+      "responses": [
+        "It starts on Aug 5, 2019",
+        "The start date is Aug 5, 2019",
+        "Its start date is Aug 5, 2019"
+      ]
+    },
+    {
+      "tag": "KelleyBlueBook-end",
+      "patterns": [
+        "KelleyBlueBook end date",
+        "KelleyBlueBook end",
+        "KelleyBlueBook final date",
+        "KelleyBlueBook over",
+        "KelleyBlueBook last day",
+        "KelleyBlueBook end day",
+        "KelleyBlueBook's end date",
+        "KelleyBlueBook's end",
+        "KelleyBlueBook's final date",
+        "KelleyBlueBook's over",
+        "KelleyBlueBook's last day",
+        "KelleyBlueBook's end day"
+      ],
+      "responses": [
+        "It's still going",
+        "It hasn't ended",
+        "Long live the team, as in, hasn't ended"
+      ]
+    },
+    {
+      "tag": "KelleyBlueBook-member",
+      "patterns": [
+        "members in KelleyBlueBook",
+        "number of members in KelleyBlueBook",
+        "KelleyBlueBook members",
+        "KelleyBlueBook's members",
+        "people in KelleyBlueBook",
+        "number of people in KelleyBlueBook"
+      ],
+      "responses": [
+        "It has 45 members",
+        "The number of members is 45",
+        "There are 45 members"
+      ]
+    },
+    {
+      "tag": "KelleyBlueBook-onshore",
+      "patterns": [
+        "Where is KelleyBlueBook client address",
+        "Where is KelleyBlueBook client location",
+        "KelleyBlueBook onshore address",
+        "KelleyBlueBook onshore location",
+        "Where is KelleyBlueBook's client address",
+        "Where is KelleyBlueBook's client location",
+        "KelleyBlueBook's onshore address",
+        "KelleyBlueBook's onshore location"
+      ],
+      "responses": [
+        "The KelleyBlueBook is at 195 Technology Dr, Irvine, CA 92618, USA",
+        "The KelleyBlueBook is located at 195 Technology Dr, Irvine, CA 92618, USA",
+        "The KelleyBlueBook is situated at 195 Technology Dr, Irvine, CA 92618, USA"
+      ]
+    },
+    {
+      "tag": "KelleyBlueBook-offshore",
+      "patterns": [
+        "Where is KelleyBlueBook KMS address",
+        "Where is KelleyBlueBook KMS location",
+        "KelleyBlueBook offshore address",
+        "KelleyBlueBook offshore location",
+        "Where is KelleyBlueBook's KMS address",
+        "Where is KelleyBlueBook's KMS location",
+        "KelleyBlueBook's offshore address",
+        "KelleyBlueBook's offshore location"
+      ],
+      "responses": [
+        "It is on the 5th floor - TV office",
+        "It is located on the 5th floor - TV office",
+        "It is situated on the 5th floor - TV office"
+      ]
+    },
+    {
+      "tag": "KelleyBlueBook-activities",
+      "patterns": [
+        "KelleyBlueBook favorite activities",
+        "activity KelleyBlueBook"
+      ],
+      "responses": [
+        "They are Learning - Sharing - Playing - Caring - Listening; master of Cars, but have no any car; ranked the first in the number of Gay Boys; eat, eat more, eat forever (Viva \"banh trang tron\"); young, strong & long fun; gym everyday with special care from Muscle Boys",
+        "The activities are Learning - Sharing - Playing - Caring - Listening; master of Cars, but have no any car; ranked the first in the number of Gay Boys; eat, eat more, eat forever (Viva \"banh trang tron\"); young, strong & long fun; gym everyday with special care from Muscle Boys",
+        "Learning - Sharing - Playing - Caring - Listening; master of Cars, but have no any car; ranked the first in the number of Gay Boys; eat, eat more, eat forever (Viva \"banh trang tron\"); young, strong & long fun; gym everyday with special care from Muscle Boys"
+      ]
+    },
+    {
+      "tag": "KelleyBlueBook-facts",
+      "patterns": [
+        "KelleyBlueBook fun facts",
+        "KelleyBlueBook's fun facts",
+        "KelleyBlueBook facts",
+        "KelleyBlueBook's facts"
+      ],
+      "responses": [
+        "The facts are: A member of \"Tuyet Tinh Cox\" (Cox Automotive Client); Stable COE audit rating of 4.3; Nude Job (Nghiep Tran) is the face of every birth - month party ... except his",
+        "They are: A member of \"Tuyet Tinh Cox\" (Cox Automotive Client); Stable COE audit rating of 4.3; Nude Job (Nghiep Tran) is the face of every birth - month party ... except his"
+      ]
+    },
+    {
+      "tag": "BabyShark-address",
+      "patterns": [
+        "Where is BabyShark",
+        "BabyShark located",
+        "BabyShark location",
+        "address of BabyShark",
+        "BabyShark location",
+        "where BabyShark address",
+        "BabyShark's located",
+        "BabyShark's location",
+        "BabyShark location",
+        "where BabyShark's address"
+      ],
+      "responses": [
+        "Client: The BabyShark is having no client and KMS: It is on the 4th floor - TV office",
+        "Client: The BabyShark is having no client and KMS: It is located on the 4th floor - TV office",
+        "Client: The BabyShark is having no client and KMS: It is situated on the 4th floor - TV office"
+      ]
+    },
+    {
+      "tag": "BabyShark-business",
+      "patterns": [
+        "BabyShark",
+        "BabyShark business",
+        "BabyShark about",
+        "BabyShark do",
+        "BabyShark info",
+        "BabyShark's business",
+        "BabyShark's about",
+        "BabyShark's do",
+        "BabyShark's info"
+      ],
+      "responses": ["There is no business with the team right now."]
+    },
+    {
+      "tag": "BabyShark-website",
+      "patterns": [
+        "BabyShark website",
+        "BabyShark url",
+        "domain BabyShark",
+        "BabyShark's website",
+        "BabyShark's url",
+        "domain BabyShark's"
+      ],
+      "responses": ["It is nonexistent"]
+    },
+    {
+      "tag": "BabyShark-start",
+      "patterns": [
+        "BabyShark start date",
+        "BabyShark begin",
+        "BabyShark first date",
+        "BabyShark start day",
+        "BabyShark begin",
+        "BabyShark first day",
+        "BabyShark's start date",
+        "BabyShark's begin",
+        "BabyShark's first date",
+        "BabyShark's start day",
+        "BabyShark's begin",
+        "BabyShark's first day"
+      ],
+      "responses": [
+        "It starts on Aug 5, 2019",
+        "The start date is Aug 5, 2019",
+        "Its start date is Aug 5, 2019"
+      ]
+    },
+    {
+      "tag": "BabyShark-end",
+      "patterns": [
+        "BabyShark end date",
+        "BabyShark end",
+        "BabyShark final date",
+        "BabyShark over",
+        "BabyShark last day",
+        "BabyShark end day",
+        "BabyShark's end date",
+        "BabyShark's end",
+        "BabyShark's final date",
+        "BabyShark's over",
+        "BabyShark's last day",
+        "BabyShark's end day"
+      ],
+      "responses": [
+        "It's still going",
+        "It hasn't ended",
+        "Long live the team, as in, hasn't ended"
+      ]
+    },
+    {
+      "tag": "BabyShark-member",
+      "patterns": [
+        "members in BabyShark",
+        "number of members in BabyShark",
+        "BabyShark members",
+        "BabyShark's members",
+        "people in BabyShark",
+        "number of people in BabyShark"
+      ],
+      "responses": [
+        "It is Ramping up & down anytime members",
+        "The number of members is Ramping up & down anytime"
+      ]
+    },
+    {
+      "tag": "BabyShark-onshore",
+      "patterns": [
+        "Where is BabyShark client address",
+        "Where is BabyShark client location",
+        "BabyShark onshore address",
+        "BabyShark onshore location",
+        "Where is BabyShark's client address",
+        "Where is BabyShark's client location",
+        "BabyShark's onshore address",
+        "BabyShark's onshore location"
+      ],
+      "responses": ["The BabyShark doesn't have a client"]
+    },
+    {
+      "tag": "BabyShark-offshore",
+      "patterns": [
+        "Where is BabyShark KMS address",
+        "Where is BabyShark KMS location",
+        "BabyShark offshore address",
+        "BabyShark offshore location",
+        "Where is BabyShark's KMS address",
+        "Where is BabyShark's KMS location",
+        "BabyShark's offshore address",
+        "BabyShark's offshore location"
+      ],
+      "responses": [
+        "It is on the 4th floor - TV office",
+        "It is located on the 4th floor - TV office",
+        "It is situated on the 4th floor - TV office"
+      ]
+    },
+    {
+      "tag": "BabyShark-activities",
+      "patterns": ["BabyShark favorite activities", "activity BabyShark"],
+      "responses": [
+        "There is none",
+        "There is no activity",
+        "No, the team's goal is to work now, and forever",
+        "No leisure time for activities :("
+      ]
+    },
+    {
+      "tag": "BabyShark-facts",
+      "patterns": [
+        "BabyShark fun facts",
+        "BabyShark's fun facts",
+        "BabyShark facts",
+        "BabyShark's facts"
+      ],
+      "responses": [
+        "The facts are: learn, learn more, learn forever :v",
+        "They are: learn, learn more, learn forever :v"
+      ]
+    },
+    {
+      "tag": "CLOUDHMS-address",
+      "patterns": [
+        "Where is CLOUDHMS",
+        "CLOUDHMS located",
+        "CLOUDHMS location",
+        "address of CLOUDHMS",
+        "CLOUDHMS location",
+        "where CLOUDHMS address",
+        "CLOUDHMS's located",
+        "CLOUDHMS's location",
+        "CLOUDHMS location",
+        "where CLOUDHMS's address"
+      ],
+      "responses": [
+        "Client: The CLOUDHMS is at ETOWN Central, Floor 24th, 11 Doan Van Bo, District 4, HCMC and KMS: It is on the 4th floor - TV office",
+        "Client: The CLOUDHMS is located at ETOWN Central, Floor 24th, 11 Doan Van Bo, District 4, HCMC and KMS: It is located on the 4th floor - TV office",
+        "Client: The CLOUDHMS is situated at ETOWN Central, Floor 24th, 11 Doan Van Bo, District 4, HCMC and KMS: It is situated on the 4th floor - TV office"
+      ]
+    },
+    {
+      "tag": "CLOUDHMS-business",
+      "patterns": [
+        "CLOUDHMS",
+        "CLOUDHMS business",
+        "CLOUDHMS about",
+        "CLOUDHMS do",
+        "CLOUDHMS info",
+        "CLOUDHMS's business",
+        "CLOUDHMS's about",
+        "CLOUDHMS's do",
+        "CLOUDHMS's info"
+      ],
+      "responses": [
+        "It is about Hospitality",
+        "It is Hospitality",
+        "The business is about Hospitality"
+      ]
+    },
+    {
+      "tag": "CLOUDHMS-website",
+      "patterns": [
+        "CLOUDHMS website",
+        "CLOUDHMS url",
+        "domain CLOUDHMS",
+        "CLOUDHMS's website",
+        "CLOUDHMS's url",
+        "domain CLOUDHMS's"
+      ],
+      "responses": ["It is nonexistent"]
+    },
+    {
+      "tag": "CLOUDHMS-start",
+      "patterns": [
+        "CLOUDHMS start date",
+        "CLOUDHMS begin",
+        "CLOUDHMS first date",
+        "CLOUDHMS start day",
+        "CLOUDHMS begin",
+        "CLOUDHMS first day",
+        "CLOUDHMS's start date",
+        "CLOUDHMS's begin",
+        "CLOUDHMS's first date",
+        "CLOUDHMS's start day",
+        "CLOUDHMS's begin",
+        "CLOUDHMS's first day"
+      ],
+      "responses": [
+        "It starts on Aug 5, 2019",
+        "The start date is Aug 5, 2019",
+        "Its start date is Aug 5, 2019"
+      ]
+    },
+    {
+      "tag": "CLOUDHMS-end",
+      "patterns": [
+        "CLOUDHMS end date",
+        "CLOUDHMS end",
+        "CLOUDHMS final date",
+        "CLOUDHMS over",
+        "CLOUDHMS last day",
+        "CLOUDHMS end day",
+        "CLOUDHMS's end date",
+        "CLOUDHMS's end",
+        "CLOUDHMS's final date",
+        "CLOUDHMS's over",
+        "CLOUDHMS's last day",
+        "CLOUDHMS's end day"
+      ],
+      "responses": [
+        "It's still going",
+        "It hasn't ended",
+        "Long live the team, as in, hasn't ended"
+      ]
+    },
+    {
+      "tag": "CLOUDHMS-member",
+      "patterns": [
+        "members in CLOUDHMS",
+        "number of members in CLOUDHMS",
+        "CLOUDHMS members",
+        "CLOUDHMS's members",
+        "people in CLOUDHMS",
+        "number of people in CLOUDHMS"
+      ],
+      "responses": [
+        "It has 18+ (you know what I mean?) members",
+        "The number of members is 18+ (you know what I mean?)",
+        "There are 18+ (you know what I mean?) members"
+      ]
+    },
+    {
+      "tag": "CLOUDHMS-onshore",
+      "patterns": [
+        "Where is CLOUDHMS client address",
+        "Where is CLOUDHMS client location",
+        "CLOUDHMS onshore address",
+        "CLOUDHMS onshore location",
+        "Where is CLOUDHMS's client address",
+        "Where is CLOUDHMS's client location",
+        "CLOUDHMS's onshore address",
+        "CLOUDHMS's onshore location"
+      ],
+      "responses": [
+        "The CLOUDHMS is at ETOWN Central, Floor 24th, 11 Doan Van Bo, District 4, HCMC",
+        "The CLOUDHMS is located at ETOWN Central, Floor 24th, 11 Doan Van Bo, District 4, HCMC",
+        "The CLOUDHMS is situated at ETOWN Central, Floor 24th, 11 Doan Van Bo, District 4, HCMC"
+      ]
+    },
+    {
+      "tag": "CLOUDHMS-offshore",
+      "patterns": [
+        "Where is CLOUDHMS KMS address",
+        "Where is CLOUDHMS KMS location",
+        "CLOUDHMS offshore address",
+        "CLOUDHMS offshore location",
+        "Where is CLOUDHMS's KMS address",
+        "Where is CLOUDHMS's KMS location",
+        "CLOUDHMS's offshore address",
+        "CLOUDHMS's offshore location"
+      ],
+      "responses": [
+        "It is on the 4th floor - TV office",
+        "It is located on the 4th floor - TV office",
+        "It is situated on the 4th floor - TV office"
+      ]
+    },
+    {
+      "tag": "CLOUDHMS-activities",
+      "patterns": ["CLOUDHMS favorite activities", "activity CLOUDHMS"],
+      "responses": [
+        "There is none",
+        "There is no activity",
+        "No, the team's goal is to work now, and forever",
+        "No leisure time for activities :("
+      ]
+    },
+    {
+      "tag": "CLOUDHMS-facts",
+      "patterns": [
+        "CLOUDHMS fun facts",
+        "CLOUDHMS's fun facts",
+        "CLOUDHMS facts",
+        "CLOUDHMS's facts"
+      ],
+      "responses": [
+        "The facts are: Do you want to practice Vietnamese? Come join us!; Do you want to work onsite regularly? Come join us!",
+        "They are: Do you want to practice Vietnamese? Come join us!; Do you want to work onsite regularly? Come join us!"
+      ]
     }
   ]
 }
